@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="http-status-code",
-    version="0.1.0",
+    version="0.0.1",
     author="Muhammad Samer Sallam",
     author_email="samersallam92@gmail.com",
     license='MIT',

@@ -1,18 +1,21 @@
 from .errors import CodeAlreadyExistException
 
 class StatusCode:
-	available_codes = list()
-	def __init__(self, code, message):
-		self.code = code
-		self.message = message
+    available_codes = list()
 
-		if self.code in StatusCode.available_codes:
-			raise CodeAlreadyExistException('The required code is already available in the standard code')
 
-		StatusCode.available_codes.append(self.code)
-
-	def update_msg(self, new_msg):
-		self.message = str(new_msg)
-
+    def __init__(self, code, message):
+        if code in StatusCode.available_codes:
+            raise CodeAlreadyExistException
+    
+        else:
+            StatusCode.available_codes.append(code)
+    
+        self.code = code
+        self.message = message
+    
+    
+    def update_msg(self, new_msg):
+        self.message = str(new_msg)
 
 from . import standard
