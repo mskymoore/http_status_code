@@ -3,12 +3,19 @@ from . import StatusCode
 # General
 successful_request = StatusCode(200, 'Successful request')
 bad_request = StatusCode(400, 'Bad request')
-unauthorized_request = StatusCode(403, 'The required resource is not found')
+unauthorized_request = StatusCode(403, 'You are not authorized')
 resource_not_found = StatusCode(404, 'The required resource is not found')
 request_assertion_error = StatusCode(410, 'Request assertion error')
 
-# Authentication
-expired_token = StatusCode(431, 'The token is expired')
-invalid_token = StatusCode(432, 'The token is invalid')
-wrong_token = StatusCode(433, 'Wrong token error (related to refresh and access tokens)')
-missing_token = StatusCode(434, 'Missing token')
+# Authentication (Codes start from 430)
+invalid_credentials = StatusCode(430, 'Invalid credentials')
+inactive_account = StatusCode(431, 'Your account is inactive')
+missing_token = StatusCode(432, 'Missing token')
+invalid_token = StatusCode(433, 'The token is invalid')
+expired_token = StatusCode(434, 'The token is expired')
+logged_out = StatusCode(435, 'You have logged out invalid credentials. Please log in again')
+
+# Database
+duplicate_entry = StatusCode(630, 'This record already exists')
+related_existing_record = StatusCode(631, 'This record is related to other records. Therefore, it cannot be deleted')
+

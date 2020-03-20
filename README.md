@@ -11,7 +11,7 @@ pip install http_status_code
 The following status codes are available in the standard module:
 - Successful request: 												200
 - Bad request:														400
-- The required resource is not found:					 			403
+- You are not authorized:	            				 			403
 - The required resource is not found:								404
 - Request assertion error: 											410
 - The token is expired:												431
