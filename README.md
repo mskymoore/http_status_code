@@ -13,7 +13,7 @@ The following status codes are available in the standard module:
 - Bad request:																		400
 - You are not authorized:	            				 							403
 - The required resource is not found:												404
-- Request assertion error: 															410
+- Request arguments (query string or body) validation error: 	            		410
 - Invalid credentials:																430
 - Your account is inactive:															431
 - Missing token:																	432
