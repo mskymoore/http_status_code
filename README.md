@@ -22,7 +22,8 @@ Authentication
 - Missing token:																	432
 - The token is invalid:																433
 - The token is expired:																434
-- You have logged out invalid credentials. Please log in again:						435
+- Wrong token error (related to refresh and access tokens)                          435
+- You have logged out invalid credentials. Please log in again:						436
 
 Database
 - This record already exists:														630
