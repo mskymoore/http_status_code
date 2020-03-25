@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: http-status-code
-Version: 0.0.1
+Version: 0.0.2
 Summary: This module contains a simple library with a single class to define HTTP status codes
 Home-page: https://github.com/Samer92/http_status_code
 Author: Muhammad Samer Sallam
@@ -30,7 +30,8 @@ Description:
         - Missing token:																	432
         - The token is invalid:																433
         - The token is expired:																434
-        - You have logged out invalid credentials. Please log in again:						435
+        - Wrong token error (related to refresh and access tokens)                          435
+        - You have logged out invalid credentials. Please log in again:						436
         
         Database
         - This record already exists:														630

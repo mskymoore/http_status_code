@@ -13,7 +13,8 @@ inactive_account = StatusCode(431, 'Your account is inactive')
 missing_token = StatusCode(432, 'Missing token')
 invalid_token = StatusCode(433, 'The token is invalid')
 expired_token = StatusCode(434, 'The token is expired')
-logged_out = StatusCode(435, 'You have logged out invalid credentials. Please log in again')
+wrong_token = StatusCode(435, 'Wrong token error (related to refresh and access tokens)')
+logged_out = StatusCode(436, 'You have logged out. Please log in again')
 
 # Database
 duplicate_entry = StatusCode(630, 'This record already exists')
