@@ -23,4 +23,4 @@ The following status codes are available in the standard module:
 - This record already exists:														630
 - This record is related to other records. Therefore, it cannot be deleted:			631
 
-In order to use refer to the following [example](https://github.com/Samer92/http_status_code/blob/master/Example/http_status_code_example.ipynb)
+In order to use refer to the following [example](https://github.com/Samer92/http_status_code/blob/master/Example.ipynb)
