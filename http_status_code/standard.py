@@ -5,7 +5,7 @@ successful_request = StatusCode(200, 'Successful request')
 bad_request = StatusCode(400, 'Bad request')
 unauthorized_request = StatusCode(403, 'You are not authorized')
 resource_not_found = StatusCode(404, 'The required resource is not found')
-request_assertion_error = StatusCode(410, 'Request arguments (query string or body) validation error')
+request_args_validation_error = StatusCode(410, 'Request arguments (query string or body) validation error')
 
 # Authentication (Codes start from 430)
 invalid_credentials = StatusCode(430, 'Invalid credentials')

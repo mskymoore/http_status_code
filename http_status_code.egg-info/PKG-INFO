@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: http-status-code
-Version: 0.0.2
+Version: 0.0.3
 Summary: This module contains a simple library with a single class to define HTTP status codes
 Home-page: https://github.com/Samer92/http_status_code
 Author: Muhammad Samer Sallam
