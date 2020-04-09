@@ -19,4 +19,6 @@ logged_out = StatusCode(436, 'You have logged out. Please log in again')
 # Database
 duplicate_entry = StatusCode(630, 'This record already exists')
 related_existing_record = StatusCode(631, 'This record is related to other records. Therefore, it cannot be deleted')
+no_result_match = StatusCode(632, 'Nno result match your search parameters')
+
 
